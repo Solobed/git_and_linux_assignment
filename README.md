@@ -3,15 +3,15 @@
    - [Extract](./Scripts/bash/etl.sh#L3) → Extract
    - [Transform](./Scripts/bash/etl.sh#L16) → Transform(Renames column Variable_code and selects the relevant fields.)
    - [Load](./Scripts/bash/etl.sh#L30) → Load
-   - [ETL Architecture Diagram](./diagrams/Diagram.png)
-      ![Diagram](./diagrams/Diagram.png)
+   - [ETL Architecture Diagram](./Scripts/diagrams/Diagram.png)
+      ![Diagram](./Scripts/diagrams/Diagram.png)
 
 2. [Automation with Cron](./Scripts/bash/etl.sh#L42)
    - Scheduling the ETL script daily at **12:00 AM**
 
 3. [Moving JSON & CSV Files from one folder to another folder](./Scripts/bash/json_and_CSV.sh)
    - Script to move `.csv` and `.json` files from a folder to another folder
-   - To use this script: `bash json_and_CSV.sh input_folder_path/ output_folder_path/` or `./json_and_CSV.sh input_folder_path/ output_folder_path/`
+   - To use this script: `bash json_and_CSV.sh input_folder_path/ output_folder_path/` or `./json_and_CSV.sh input_folder_path/ output_folder_path/` 
 
 4. [Loading Data into PostgreSQL](./Scripts/bash/posey.sh)
    - Loads Parch & Posey CSVs into PostgreSQL database `posey`
