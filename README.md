@@ -4,7 +4,7 @@
    - [Transform](./Scripts/bash/etl.sh#L16) → Transform(Renames column Variable_code and selects the relevant fields.)
    - [Load](./Scripts/bash/etl.sh#L30) → Load
    - [ETL Architecture Diagram](./Scripts/diagrams/Diagram.png)
-      ![Diagram](./Scripts/diagrams/Diagram.png)
+      ![](./Scripts/diagrams/Diagram.png)
 
 2. [Automation with Cron](./Scripts/bash/etl.sh#L42)
    - Scheduling the ETL script daily at **12:00 AM**
